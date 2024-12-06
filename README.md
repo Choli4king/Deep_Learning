@@ -11,12 +11,12 @@ This repository contains a deep learning homework project focusing on Natural La
 
 ### Setting Up Conda Environment
 
-If you want to replicate the environment used for this project, you can do so by creating a new Conda environment using the provided YAML file.
+If you want to replicate the environment used for this project, you can do so by creating a new Conda environment using the provided requirements.yml file.
 
 To create the environment, use the following command:
 
 ```sh
-conda env create -f DeepL3.yml
+conda env create -f requirements.yml -n new_env_name
 ```
 
 This will install all necessary packages and dependencies in a new virtual environment.
@@ -26,7 +26,7 @@ This will install all necessary packages and dependencies in a new virtual envir
 Once you have created the environment, activate it using:
 
 ```sh
-conda activate DeepL3
+conda activate new_env_name
 ```
 
 ## Dependencies
@@ -39,6 +39,7 @@ The main dependencies used in this project include:
 - **Matplotlib** for plotting
 - **Scikit-Learn** for t-SNE visualization
 - **Pickle** for saving and loading processed data
+- **Inflect** for expanding word contractions
 
 To install any missing dependencies manually:
 

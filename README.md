@@ -56,5 +56,5 @@ pip install gensim
 ## Project Structure
 
 - `ted_talk_preprocessing.ipynb`: Main Jupyter Notebook containing all code for data preprocessing, embedding generation, and visualization.
-- `environment.yml`: YAML file to recreate the Conda environment used.
+- `requirements.yml`: YAML file to recreate the Conda environment used.
 - `tokenized_data.pkl`: A Pickle file containing the tokenized TED Talks data.
